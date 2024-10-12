@@ -13,6 +13,9 @@ int main()
     foo(&count);
     printf("%d\n", count);
 
+    int arr[] = {1, 2, 3};
+    printf("%lu\n", sizeof(arr) / sizeof(int));
+
     return 0;
 }
 
